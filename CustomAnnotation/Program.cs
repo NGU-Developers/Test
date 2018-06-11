@@ -20,6 +20,9 @@
 	{
 		[StringLength(5,10,"character limit 5 to 10")]
 		public string Name { get; set; }
+		
+		[StringLength(5,10,"character limit 5 to 10")]
+		public string SurName { get; set; }
 
 		[Numeric("not a valid number")]
 		public string Quantity { get; set; }
