@@ -27,6 +27,9 @@
 		[Numeric("not a valid number")]
 		public string Quantity { get; set; }
 
+		[Numeric("not a valid number")]
+		public string Age { get; set; }
+
 		[Currency("not a valid amount")]
 		public string Amount { get; set; }
 
